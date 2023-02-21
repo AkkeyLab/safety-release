@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E874BF29A53034000ABC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E874BE29A53034000ABC09 /* AppDelegate.swift */; };
+		F4E874C329A53034000ABC09 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F4E874C129A53034000ABC09 /* Main.html */; };
+		F4E874C529A53034000ABC09 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E874C429A53034000ABC09 /* Icon.png */; };
+		F4E874C729A53034000ABC09 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F4E874C629A53034000ABC09 /* Style.css */; };
+		F4E874C929A53034000ABC09 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F4E874C829A53034000ABC09 /* Script.js */; };
+		F4E874CB29A53034000ABC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E874CA29A53034000ABC09 /* ViewController.swift */; };
+		F4E874CE29A53034000ABC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E874CC29A53034000ABC09 /* Main.storyboard */; };
+		F4E874D029A53035000ABC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E874CF29A53035000ABC09 /* Assets.xcassets */; };
+		F4E874D829A53035000ABC09 /* safety-release Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F4E874D729A53035000ABC09 /* safety-release Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F4E874DD29A53035000ABC09 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E874DC29A53035000ABC09 /* SafariWebExtensionHandler.swift */; };
+		F4E874E029A53035000ABC09 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F4E874DF29A53035000ABC09 /* _locales */; };
+		F4E874E229A53035000ABC09 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F4E874E129A53035000ABC09 /* images */; };
+		F4E874E429A53035000ABC09 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F4E874E329A53035000ABC09 /* manifest.json */; };
+		F4E874E629A53035000ABC09 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F4E874E529A53035000ABC09 /* background.js */; };
+		F4E874E829A53035000ABC09 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F4E874E729A53035000ABC09 /* content.js */; };
+		F4E874EA29A53035000ABC09 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F4E874E929A53035000ABC09 /* popup.html */; };
+		F4E874EC29A53035000ABC09 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F4E874EB29A53035000ABC09 /* popup.css */; };
+		F4E874EE29A53035000ABC09 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F4E874ED29A53035000ABC09 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E874D929A53035000ABC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E874B329A53034000ABC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E874D629A53035000ABC09;
+			remoteInfo = "safety-release Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4E874F629A53035000ABC09 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F4E874D829A53035000ABC09 /* safety-release Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4E874BB29A53034000ABC09 /* safety-release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safety-release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E874BE29A53034000ABC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E874C229A53034000ABC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F4E874C429A53034000ABC09 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F4E874C629A53034000ABC09 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F4E874C829A53034000ABC09 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F4E874CA29A53034000ABC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E874CD29A53034000ABC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E874CF29A53035000ABC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E874D129A53035000ABC09 /* safety_release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safety_release.entitlements; sourceTree = "<group>"; };
+		F4E874D229A53035000ABC09 /* safety-release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "safety-release.entitlements"; sourceTree = "<group>"; };
+		F4E874D729A53035000ABC09 /* safety-release Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "safety-release Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E874DC29A53035000ABC09 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F4E874DF29A53035000ABC09 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F4E874E129A53035000ABC09 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F4E874E329A53035000ABC09 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F4E874E529A53035000ABC09 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		F4E874E729A53035000ABC09 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		F4E874E929A53035000ABC09 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F4E874EB29A53035000ABC09 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		F4E874ED29A53035000ABC09 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F4E874EF29A53035000ABC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E874F029A53035000ABC09 /* safety_release_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safety_release_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E874B829A53034000ABC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E874D429A53035000ABC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E874B229A53034000ABC09 = {
+			isa = PBXGroup;
+			children = (
+				F4E874BD29A53034000ABC09 /* safety-release */,
+				F4E874DB29A53035000ABC09 /* safety-release Extension */,
+				F4E874BC29A53034000ABC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E874BC29A53034000ABC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E874BB29A53034000ABC09 /* safety-release.app */,
+				F4E874D729A53035000ABC09 /* safety-release Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E874BD29A53034000ABC09 /* safety-release */ = {
+			isa = PBXGroup;
+			children = (
+				F4E874BE29A53034000ABC09 /* AppDelegate.swift */,
+				F4E874CA29A53034000ABC09 /* ViewController.swift */,
+				F4E874CC29A53034000ABC09 /* Main.storyboard */,
+				F4E874CF29A53035000ABC09 /* Assets.xcassets */,
+				F4E874D129A53035000ABC09 /* safety_release.entitlements */,
+				F4E874D229A53035000ABC09 /* safety-release.entitlements */,
+				F4E874C029A53034000ABC09 /* Resources */,
+			);
+			path = "safety-release";
+			sourceTree = "<group>";
+		};
+		F4E874C029A53034000ABC09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4E874C129A53034000ABC09 /* Main.html */,
+				F4E874C429A53034000ABC09 /* Icon.png */,
+				F4E874C629A53034000ABC09 /* Style.css */,
+				F4E874C829A53034000ABC09 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4E874DB29A53035000ABC09 /* safety-release Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4E874DC29A53035000ABC09 /* SafariWebExtensionHandler.swift */,
+				F4E874EF29A53035000ABC09 /* Info.plist */,
+				F4E874F029A53035000ABC09 /* safety_release_Extension.entitlements */,
+				F4E874DE29A53035000ABC09 /* Resources */,
+			);
+			path = "safety-release Extension";
+			sourceTree = "<group>";
+		};
+		F4E874DE29A53035000ABC09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4E874DF29A53035000ABC09 /* _locales */,
+				F4E874E129A53035000ABC09 /* images */,
+				F4E874E329A53035000ABC09 /* manifest.json */,
+				F4E874E529A53035000ABC09 /* background.js */,
+				F4E874E729A53035000ABC09 /* content.js */,
+				F4E874E929A53035000ABC09 /* popup.html */,
+				F4E874EB29A53035000ABC09 /* popup.css */,
+				F4E874ED29A53035000ABC09 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E874BA29A53034000ABC09 /* safety-release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E874F729A53035000ABC09 /* Build configuration list for PBXNativeTarget "safety-release" */;
+			buildPhases = (
+				F4E874B729A53034000ABC09 /* Sources */,
+				F4E874B829A53034000ABC09 /* Frameworks */,
+				F4E874B929A53034000ABC09 /* Resources */,
+				F4E874F629A53035000ABC09 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E874DA29A53035000ABC09 /* PBXTargetDependency */,
+			);
+			name = "safety-release";
+			productName = "safety-release";
+			productReference = F4E874BB29A53034000ABC09 /* safety-release.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E874D629A53035000ABC09 /* safety-release Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E874F329A53035000ABC09 /* Build configuration list for PBXNativeTarget "safety-release Extension" */;
+			buildPhases = (
+				F4E874D329A53035000ABC09 /* Sources */,
+				F4E874D429A53035000ABC09 /* Frameworks */,
+				F4E874D529A53035000ABC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "safety-release Extension";
+			productName = "safety-release Extension";
+			productReference = F4E874D729A53035000ABC09 /* safety-release Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E874B329A53034000ABC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F4E874BA29A53034000ABC09 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F4E874D629A53035000ABC09 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F4E874B629A53034000ABC09 /* Build configuration list for PBXProject "safety-release" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E874B229A53034000ABC09;
+			productRefGroup = F4E874BC29A53034000ABC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E874BA29A53034000ABC09 /* safety-release */,
+				F4E874D629A53035000ABC09 /* safety-release Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E874B929A53034000ABC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E874C529A53034000ABC09 /* Icon.png in Resources */,
+				F4E874CE29A53034000ABC09 /* Main.storyboard in Resources */,
+				F4E874C929A53034000ABC09 /* Script.js in Resources */,
+				F4E874C329A53034000ABC09 /* Main.html in Resources */,
+				F4E874D029A53035000ABC09 /* Assets.xcassets in Resources */,
+				F4E874C729A53034000ABC09 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E874D529A53035000ABC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E874E629A53035000ABC09 /* background.js in Resources */,
+				F4E874EC29A53035000ABC09 /* popup.css in Resources */,
+				F4E874EA29A53035000ABC09 /* popup.html in Resources */,
+				F4E874E229A53035000ABC09 /* images in Resources */,
+				F4E874E429A53035000ABC09 /* manifest.json in Resources */,
+				F4E874E029A53035000ABC09 /* _locales in Resources */,
+				F4E874E829A53035000ABC09 /* content.js in Resources */,
+				F4E874EE29A53035000ABC09 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E874B729A53034000ABC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E874CB29A53034000ABC09 /* ViewController.swift in Sources */,
+				F4E874BF29A53034000ABC09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E874D329A53035000ABC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E874DD29A53035000ABC09 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E874DA29A53035000ABC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E874D629A53035000ABC09 /* safety-release Extension */;
+			targetProxy = F4E874D929A53035000ABC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E874C129A53034000ABC09 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E874C229A53034000ABC09 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F4E874CC29A53034000ABC09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E874CD29A53034000ABC09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E874F129A53035000ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E874F229A53035000ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F4E874F429A53035000ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "safety-release Extension/safety_release_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "safety-release Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "safety-release Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akkeylab.safety-release.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4E874F529A53035000ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "safety-release Extension/safety_release_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "safety-release Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "safety-release Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akkeylab.safety-release.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F4E874F829A53035000ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "safety-release/safety-release.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "safety-release";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akkeylab.safety-release";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F4E874F929A53035000ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "safety-release/safety-release.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "safety-release";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akkeylab.safety-release";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E874B629A53034000ABC09 /* Build configuration list for PBXProject "safety-release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E874F129A53035000ABC09 /* Debug */,
+				F4E874F229A53035000ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E874F329A53035000ABC09 /* Build configuration list for PBXNativeTarget "safety-release Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E874F429A53035000ABC09 /* Debug */,
+				F4E874F529A53035000ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E874F729A53035000ABC09 /* Build configuration list for PBXNativeTarget "safety-release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E874F829A53035000ABC09 /* Debug */,
+				F4E874F929A53035000ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E874B329A53034000ABC09 /* Project object */;
+}
